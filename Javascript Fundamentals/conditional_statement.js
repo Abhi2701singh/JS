@@ -21,6 +21,3 @@
 // } else {
 //     console.log("This condition is false, so this block is executed");
 // }
-
-
-
