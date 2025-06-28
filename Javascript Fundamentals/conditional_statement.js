@@ -21,3 +21,14 @@
 // } else {
 //     console.log("This condition is false, so this block is executed");
 // }
+
+var readlineSync = require('readline-sync');
+const number = Number(readlineSync.question("Enter a number: "));
+
+const remainder= number % 2;
+if (remainder === 0) {
+    console.log("The number is even");
+}
+else {
+    console.log("The number is odd");
+}
