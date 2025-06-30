@@ -1,0 +1,116 @@
+------------   JAVA SCRIPT    -------------
+
+-> Java script is an interpreted, client side ,event-based, object-oriented scripting language.
+
+-> invented in 1995 at Netscape Corportion (LiveScript)
+
+-> it is a case sensitive language.
+
+## what can javascript do ?
+
+1- javascript can dynamically modify an html page.
+
+2- js can validate user input.
+
+3- js can be used to create cookies.
+
+4- js is full-feature programming language.
+
+5- js user interaction does not require any       communication with the server.
+
+## what makes js unique ?
+
+1- support all browsers.
+2- complex things are done simply.
+3- full integration with htlm & css.
+
+## js frameworks and libraries.
+
+1- Angular
+2- React
+3- jQuery
+4- Vue.js
+5- Node.js
+
+## how to use internal javascript ?
+
+-> js can be insert into documents by using the script tag.
+
+-> the script tag provide a block to write tha js program.
+
+<script type="text/javascript">
+      ..................
+      ..................
+      ..................
+</script>
+
+## how to use external js?
+
+-> to use the pre-define program of any js library.
+
+-> create name.js
+-> link html page 
+   <script src="name.js"></script>
+
+## important function of js-
+
+1- alert() - it is used to alert the user that something has happened.
+
+2- confirm() - opens up a confirm/cancel dialog and return true/false depending on user's click.
+
+3- console.log() - writes information to the browser console, good for debugging purpose.
+
+4- document.write() - write directly to the html document.
+
+5- prompt() - cretes an dialogue for user input.
+
+## Variable in js
+
+-> variables are container which hold reusable dat.
+-> it is the basic unit of strong in a program.
+-> the value stored in a variable can be changed during program execute.
+
+var variable_name = "value" ;
+
+## scope  and lifetime :-
+
+-> variable declare within a function are local to that function.
+-> variable declare outside of any function are global variable.
+
+-> lacal varialble's life time is with the block of its declaration.
+
+-> global variable's life time is throughout the program.
+
+
+## JS DOM function:-
+
+DOM (Document object Method)
+
+1- document.getElementById()
+2- document.getElementByClassName()
+3- innerHTML()
+
+## String Concatenation in JS:-
+
+    var x = "hello";
+    var y = " everyone";
+
+    var z = x + y;
+    alert(z);
+
+    var x = "hello";
+    var y = " everyone";
+
+    var z = x + y + " there!";
+    alert(z);
+
+    var z = "abhinav" + " singh"
+    alert(z);
+
+    var z = "3"+"3";
+    alert(z);
+
+    var z = 3+3;
+    alert(z);
+
+##
