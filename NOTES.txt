@@ -113,4 +113,37 @@ DOM (Document object Method)
     var z = 3+3;
     alert(z);
 
-##
+##  Operator 
+
+-> an operator is a symbol that tell the compiler which arithmetic or logical opertator to be performrd between the respective operands.
+
+## types of operator 
+
+1- arithmetic operator [+ , - , * , / , % , ++ , -- ]
+2- logical operator [ && , || ]
+3- ternary operator [ <condition>?<true>:<false> ]
+4- assignment operator [ = , += , -= , *= , /= , %= ]
+5- comparison operator [ == , != , > , < , >= , <= ]
+
+
+ ## functions 
+
+-> function are group of caode or program which is used more often.
+-> it leads programming to code reusability and clean code.
+
+## types of functions:
+
+1- pre-defined function
+2- user-defined function
+
+syntax-
+      function <function name>(){
+        //----------------
+          ---------------- 
+           function body
+          ---------------
+          --------------- 
+      }
+
+
+
