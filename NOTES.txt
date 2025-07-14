@@ -195,3 +195,94 @@ two possible cases, either true or flase.
         --------------
         --------------
       }
+
+
+## Array-
+
+-> array is agroup of continuous memory location.
+-> it is used to store multiple values into a single variable.
+
+## declaration of an array-
+
+1-
+
+var house=[];
+
+// initialization while declaring
+
+var house=['1bhk','2bhk','3bhk','4bhk'];
+
+// initialization after declaring
+
+house[0]='1bhk';
+house[1]='2bhk';
+house[2]='3bhk';
+house[3]='4bhk';
+
+2-
+
+var house = new array()
+
+var house = new array(10,20,30,40,50);
+
+var house = ['1bhk',3000,'2bhk',5000];
+
+---------------------------------------------
+
+## looping statement-
+
+-> a loop is used to repeat a block of code unit the specified condition is met.
+-> when similar task is needed to be done again and again.
+-> save time and leads to code reusability.
+
+## for loop-
+
+syntax:
+     for(initialization: test condition : inc/dec)
+     {
+      -------------------
+      -------------------
+     }
+
+## while loop-  
+
+A while loop is to execute a statement or code block repeatedly as long as condition is true.
+
+Once the condition becomes false, the loop terminates.
+
+it is also called entry control loop.
+
+Syntax:
+      while(expression){
+        ----------------
+        ----------------
+      }
+
+## forEach loop- 
+
+A forEach loop (method) is used to get data from js array or object.
+
+The method call a function once for each element in an array in order.
+
+Syntax:
+      var cars=["car1","car2","car3","car4"];
+
+      cars.forEach(myfunction);
+
+      function myfunction(item,index,array){
+        -----------------
+        -----------------
+      }
+[
+  item - (here "car1") required parameter
+  index - (here 0 for "car1") optional
+  array - (here cars) optional
+]
+
+## Continue statement-
+
+The continue statement is used to skip the current iteration and go to next iteration.
+
+Syntax:
+     continue;
+     
