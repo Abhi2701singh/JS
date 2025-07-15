@@ -286,3 +286,42 @@ The continue statement is used to skip the current iteration and go to next iter
 Syntax:
      continue;
      
+## break statement-
+
+The break statement is used to break the execution of current loop or switch case.
+
+As soon as it is encountered the flow of the program goes to next statement of loop or switch case.
+
+Syntax:
+      break;
+
+
+## switch case-
+
+Switch statement is used to choose in between many cases.
+
+It work same as nested if-elseif-else statement.
+
+Syntax:
+      Switch(x){
+        
+        case 'val1':
+        ------------
+        break;
+
+        case 'val2':
+        ------------
+        break;
+
+        case 'val3':
+        ------------
+        break;
+
+        case 'val4':
+        ------------
+        break;
+
+        default:
+        ------------
+        break;
+      }
