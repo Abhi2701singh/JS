@@ -325,3 +325,23 @@ Syntax:
         ------------
         break;
       }
+
+## list of method-
+
+1- valueOf() - to print the data of array.
+2- isArray() - check if the variable is an array or not.
+3- concat() - join several array into one.
+4- indexOf() - returns the primitive value of the specified object.
+5- join() - combine elements of an array into a single string and return the string.
+
+6- pop() - remove the last element of an array.
+7- push() - add a new element at the end.
+8- reverse() - sort element in a descending order.
+9- shift() - remeove the first element of an array.
+10- slice() - pull a copy of a portion of an array into a new array.
+
+## date method-
+
+1- Date() - to get the current date and time details according to the browser.
+2- getFullYear() - get the year as a four digit number.
+3- getMonth() - get the month as a number (0)
