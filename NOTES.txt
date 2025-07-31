@@ -344,4 +344,74 @@ Syntax:
 
 1- Date() - to get the current date and time details according to the browser.
 2- getFullYear() - get the year as a four digit number.
-3- getMonth() - get the month as a number (0)
+3- getMonth() - get the month as a number (0-11).
+4- getDate() - get the day as a number(1-31).
+5- getHours() - get the hours(0-23).
+6- getMinutes() - get the minute(0-59)
+7- getSecond() - get the second (0-59)
+8- getMillisecond() - get the millisecond(0-999)
+9- getTime() - get the time (millisecond since january 1,1970).
+10- getDay() - get the weekday as a number (0-6).
+
+## Typeof operator-
+
+## Events-
+
+   -> In programming, event is an occurrence of any action.
+   -> when we use js in html pages, js can react with event.
+   -> eg. when user click the mouse button , or press any key on keyboard.
+
+# mouse event---
+
+  1- onclick() - the event occur when user clicks on an element.
+  2- oncontextmenu() - user right clicks on an element to open a context menu.
+  3- ondblclick() - the user double click on an elemnt.
+  4- onmousedown() - user presses a mouse button over an element.
+  5- onmouseleave() - pointer moves out of an element.
+  6- onmousemove() - the pointer is moving while it is over an element.
+  7- onmouseover() - when the pointer is moved onto an element or one of its children.
+  8- onmouseout() - user moves the mouse pointer out of an element or one of its children
+
+  9- onmouseup() - the user relese a mouse button while over an element.
+
+# keyboard events---
+
+  1- onkeydown() - when the user is pressing a key down.
+  2- onkeypress() - the moment the user start pressing a key.
+  3- onkeyup() - the user release a key.
+
+# form events---
+
+  1- onblur() - when an element loses focus.
+  2- onchange() - the content of form element change.
+  3- onfocus() - an element gets focus.
+  4- oninput() - user input on an element.
+  5- oninvalid() - an element is invalid.
+  6- onreset() - a form is reset.
+  7- onsearch() - the user writes something in a search field.
+  8- onselect() - the user select same text.
+  9- onsubmit() - a form is submitted.
+  10- onload() - when document is fully loaded. 
+
+
+## DOM methods-  
+
+1- getElementsByName()
+2- getElementsByTagName()
+
+## setInterval()---
+
+  -> the setinterval() method repeats a given function at every given time interval.
+  -> syntax:
+          window.setInterval(function, milliseconds);
+  -> function: first parameter is the function to be executed.
+  -> milliseconds: indicates the length of time interval between each execution.
+
+## setTimeOut() ---
+  -> the setTimeout() method executes a function after waithing a specified number of milliseconds.
+  -> syntax:
+          window.setTimeout(function name , millisecond)
+  -> first parameter is the function to be executed
+  -> indicates the number of millisecond before execution takes place. 1sec = 1000 ms.
+
+## 
